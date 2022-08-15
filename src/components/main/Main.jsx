@@ -39,7 +39,10 @@ const Main = ({ toggleModal, rewards, totalBackers, backedMoney }) => {
               className="btn btn-bookmark"
               onClick={() => setBookmarked(!bookmarked)}
             >
-              <img src={bookmarked ? ibookmarked : ibookmark} alt="bookmark" />
+              <img
+                src={bookmarked ? ibookmarked : ibookmark}
+                alt="bookmark this project"
+              />
               <span
                 className={`btn-title collapse ${
                   bookmarked ? "bookmarked" : undefined
@@ -72,7 +75,7 @@ const Main = ({ toggleModal, rewards, totalBackers, backedMoney }) => {
       </Container>
       <Container>
         <div className="about">
-          <h4>About this project</h4>
+          <h3>About this project</h3>
           <Paragraph>
             The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
             platform that elevates your screen to a more comfortable viewing
