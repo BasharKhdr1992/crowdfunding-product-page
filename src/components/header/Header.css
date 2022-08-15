@@ -1,0 +1,12 @@
+.header {
+  height: 25rem;
+  padding-top: 3rem;
+  background-repeat: no-repeat;
+  background-image: url("../../images/image-hero-desktop.jpg");
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    background-image: url("../../images/image-hero-mobile.jpg");
+  }
+}

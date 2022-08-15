@@ -1,0 +1,58 @@
+.btn {
+  border: none;
+  border-radius: 1.7rem;
+  cursor: pointer;
+}
+
+.btn-bookmark {
+  display: flex;
+  align-items: center;
+  color: hsl(0, 0%, 40%);
+}
+
+.btn-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-bookmark .btn-title {
+  padding: 0rem 1.6rem;
+}
+
+.btn-primary .btn-title {
+  padding: 0rem 2rem;
+}
+
+.btn-primary {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(176, 50%, 47%);
+}
+
+.bookmarked {
+  color: #147b74;
+}
+
+.btn-primary:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+
+.btn-bookmark:hover {
+  opacity: 0.6;
+}
+
+.btn-disabled {
+  background-color: hsl(0, 0%, 48%);
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+  background-color: hsl(0, 0%, 48%);
+}
+
+@media screen and (max-width: 900px) {
+  .btn-primary {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 65%;
+  }
+}

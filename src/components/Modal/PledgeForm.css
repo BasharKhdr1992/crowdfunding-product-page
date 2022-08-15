@@ -1,0 +1,44 @@
+.pledge-form {
+  border-top: 0.1rem solid hsl(0, 0%, 50%);
+  padding: 1rem 2.1rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+}
+
+.input-value {
+  border-radius: 2rem;
+  border: 0.1rem solid hsl(0, 0%, 50%);
+  padding: 1rem;
+  margin-right: 1.2rem;
+}
+
+.dollar {
+  color: hsl(0, 0%, 50%);
+  margin-right: 0.5rem;
+}
+
+input[type="number"] {
+  border: none;
+  width: 3rem;
+  outline: none;
+}
+
+@media screen and (max-width: 900px) {
+  .pledge-form {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-top: 1rem;
+  }
+
+  .input-value {
+    display: flex;
+  }
+}

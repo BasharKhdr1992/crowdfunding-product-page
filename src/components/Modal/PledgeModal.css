@@ -1,0 +1,127 @@
+.pledge-modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.pledge-modal-header img {
+  cursor: pointer;
+}
+
+.pledges {
+  margin-top: 1.5rem;
+}
+
+.pledge {
+  border: 0.1rem solid hsl(0, 0%, 50%, 0.5);
+  margin-bottom: 1.5rem;
+  border-radius: 1.2rem;
+}
+
+.pledge-main {
+  padding: 2.1rem;
+}
+
+.pledge-h {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.no-reward {
+  justify-content: flex-start;
+}
+
+.p-h-left,
+.radio-desc {
+  display: flex;
+}
+
+.pledge-title {
+  min-width: max-content;
+  margin-right: 1rem;
+}
+
+.pledge-amount {
+  color: hsl(176, 50%, 47%);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-1 {
+  font-size: 1.5rem;
+  margin-right: 0.7rem;
+}
+
+.quantity span {
+  color: hsl(0, 0%, 50%);
+}
+
+.selected-pledge {
+  border-width: 0.2rem;
+  border-color: hsl(176, 50%, 47%);
+}
+
+.selected-pledge .pledge-amount-1 {
+  font-weight: 700;
+}
+
+.mobile {
+  display: none;
+}
+
+.padded-top {
+  padding-top: 1rem;
+}
+
+.padded-bottom {
+  padding-bottom: 1rem;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .collapse {
+    display: none;
+  }
+
+  .padded-top,
+  .padded-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .pledge-h {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .no-reward {
+    flex-direction: row;
+  }
+
+  .p-h-left {
+    align-items: center;
+  }
+
+  .radio-desc {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .radio-desc h3 {
+    margin-bottom: 0.7rem;
+  }
+}

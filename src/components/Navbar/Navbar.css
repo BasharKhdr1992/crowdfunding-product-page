@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76%;
+  margin: auto;
+  position: relative;
+}
+
+.navlink {
+  color: hsl(0, 0%, 100%);
+  background: none;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0rem 1.4rem;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.right,
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-menu-container {
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .collapse {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

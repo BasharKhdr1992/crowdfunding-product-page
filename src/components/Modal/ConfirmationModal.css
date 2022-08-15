@@ -1,0 +1,27 @@
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+.block {
+  width: 90%;
+  text-align: center;
+}
+
+.confirmation-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmation-modal h2,
+.confirmation-modal p {
+  text-align: center;
+}
+
+.pt {
+  padding-top: 0.8rem;
+}
+
+.pb {
+  padding-bottom: 0.8rem;
+}

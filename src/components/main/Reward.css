@@ -1,0 +1,61 @@
+.reward {
+  padding: 1rem 2rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  border: 0.1rem solid hsl(0, 0%, 80%);
+}
+
+.reward-h {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.reward-h h4 {
+  font-size: 1.2rem;
+}
+.reward-h p {
+  color: hsl(176, 50%, 47%);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.reward-footer {
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.amount-1 {
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 0%);
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+
+.amount span:last-child {
+  color: hsl(0, 0%, 48%);
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+  .reward-h,
+  .reward-footer {
+    flex-direction: column;
+  }
+
+  .reward-h h4 {
+    margin-bottom: 1rem;
+  }
+}
